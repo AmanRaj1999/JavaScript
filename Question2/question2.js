@@ -11,3 +11,5 @@ let country = "India";
 let myAge = 24;
 const myInfo = `I'm ${myFirstName} ${lastName} a ${myAge} years old , ${maritalStatus} and I live in ${country}.`;
 console.log(myInfo);
+
+//I'm Aman Raj a 24 years old , Single and I live in India.

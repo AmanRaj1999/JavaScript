@@ -3,4 +3,4 @@
 // toUpperCase : convets lowercase to uppercase.
 
 const myInfo = "my name is aman raj";
-console.log(myInfo.toUpperCase());
+console.log(myInfo.toUpperCase()); // MY NAME IS AMAN RAJ
