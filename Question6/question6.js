@@ -2,3 +2,15 @@
 
 const bigTech = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
 console.log(bigTech.split(","));
+
+//expected output:
+
+// [
+//     'Facebook',
+//     ' Google',
+//     ' Microsoft',
+//     ' Apple',
+//     ' IBM',
+//     ' Oracle',
+//     ' Amazon'
+//   ]
