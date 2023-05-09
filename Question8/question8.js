@@ -8,5 +8,8 @@ const sentence = "    Aman Raj    ";
 console.log(sentence); //   Aman Raj
 console.log(sentence.trim()); //Aman Raj
 
-const statement = "   Aman Raj";
+const statement = "   Hello World!";
 console.log(statement.trimStart());
+
+let nature = "nature is so beautiful     ";
+console.log(nature.trimEnd());
