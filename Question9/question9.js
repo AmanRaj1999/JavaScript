@@ -10,6 +10,8 @@ if (1) {
   console.log("Hey everyone!");
 }
 
+//expected output: Hello world!
+
 let aman = true;
 if (aman) {
   console.log("keep it up");
@@ -17,12 +19,14 @@ if (aman) {
   console.log("learn more");
 }
 
-console.log(Boolean("Aman"));
+//expected output: keep it up
 
-console.log(Boolean({}));
+console.log(Boolean("Aman")); //true
+
+console.log(Boolean({})); //true
 
 //falsy values
 
-console.log(Boolean(0));
+console.log(Boolean(0)); //flase
 
-console.log(Boolean(undefined));
+console.log(Boolean(undefined)); //false
