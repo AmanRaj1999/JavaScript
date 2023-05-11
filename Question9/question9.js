@@ -9,3 +9,10 @@ if (1) {
 } else {
   console.log("Hey everyone!");
 }
+
+let aman = true;
+if (aman) {
+  console.log("keep it up");
+} else {
+  console.log("learn more");
+}
