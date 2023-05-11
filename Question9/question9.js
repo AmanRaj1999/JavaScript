@@ -16,3 +16,13 @@ if (aman) {
 } else {
   console.log("learn more");
 }
+
+console.log(Boolean("Aman"));
+
+console.log(Boolean({}));
+
+//falsy values
+
+console.log(Boolean(0));
+
+console.log(Boolean(undefined));
