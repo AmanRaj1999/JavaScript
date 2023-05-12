@@ -18,12 +18,11 @@ if (aman) {
 } else {
   console.log("learn more");
 }
-
 //expected output: keep it up
 
 console.log(Boolean("Aman")); //true
 
-console.log(Boolean({})); //true
+console.log(Boolean(null)); //true
 
 //falsy values
 
