@@ -4,4 +4,10 @@
 
 let student = [1, 2, 3, 4, "pwskills", 6, 7, 8, 9, "pwskills"];
 // let searchTerm = "pw skills";
-console.log(student.lastIndexOf("pwskills")); //
+// console.log(student.lastIndexOf("pwskills", ));
+console.log(
+  `"first occurrence of pwskills ${student.lastIndexOf(
+    "pwskills",
+    7
+  )} "last occurrence of pwskills" ${student.lastIndexOf("pwskills", 10)} `
+);
