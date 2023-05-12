@@ -13,3 +13,7 @@
 //     - Find the length of python and jargon and make a falsy comparison statement.
 
 console.log(-4 > 3); //false
+
+console.log(-4 >= 3); //false
+console.log(-4 < 3); //true
+console.log(-4 <= 3); //true
