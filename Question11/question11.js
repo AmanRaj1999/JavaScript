@@ -13,3 +13,7 @@ const now = new Date();
 console.log(now);
 
 console.log(now.getFullYear());
+
+//     - What is the month today as a number?
+
+// console.log(now.getMonth());
