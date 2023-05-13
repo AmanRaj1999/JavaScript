@@ -12,19 +12,22 @@
 //     - 4 === '4' false
 //     - Find the length of python and jargon and make a falsy comparison statement.
 
-console.log(-4 > 3);
-console.log(-4 >= 3);
-console.log(-4 < 3);
-console.log(-4 <= 3);
-console.log(-4 == 4);
-console.log(-4 === 4);
-console.log(-4 != 4);
-console.log(-4 !== 4);
-console.log(-4 != "4");
-console.log(-4 == "4");
-console.log(-4 === "4");
+console.log(-4 > 3); //false
+console.log(-4 >= 3); //false
+console.log(-4 < 3); //true
+console.log(-4 <= 3); //true
+console.log(-4 == 4); //false
+console.log(-4 === 4); //false
+console.log(-4 != 4); //true
+console.log(-4 !== 4); //true
+console.log(-4 != "4"); //true
+console.log(-4 == "4"); //false
+console.log(-4 === "4"); //false
 
 let language = "python";
 let say = "jargon";
+console.log(
+  `length of python ${language.length} and length of jargon ${say.length}`
+);
 
-console.log(language.length);
+console.log(language.length > say.length);
