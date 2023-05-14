@@ -25,3 +25,7 @@ console.log(Number(now)); //1684089987782
 //     - What is the hours now?
 
 console.log(now.getHours()); //11
+
+//     - What is the minutes now?
+
+console.log(now.getMinutes()); //54
