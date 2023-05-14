@@ -16,4 +16,6 @@ console.log(now.getFullYear());
 
 //     - What is the month today as a number?
 
-// console.log(now.getMonth());
+console.log(now.getMonth()); // 4, because months are zero based or january starts from zero
+
+//     - What is the day today as a number?
