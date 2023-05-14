@@ -9,13 +9,19 @@
 
 //     - What is the year today?
 
-const now = new Date();
+const now = new Date(); //2023-05-14T18:35:38.636Z
 console.log(now);
 
-console.log(now.getFullYear());
+console.log(now.getFullYear()); //2023
 
 //     - What is the month today as a number?
 
 console.log(now.getMonth()); // 4, because months are zero based or january starts from zero
 
 //     - What is the day today as a number?
+
+console.log(Number(now)); //1684089987782
+
+//     - What is the hours now?
+
+console.log(now.getHours()); //11
