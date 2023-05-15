@@ -22,9 +22,8 @@ if (aman) {
 
 console.log(Boolean("Aman")); //true
 
-console.log(Boolean(null)); //true
-
 //falsy values
+console.log(Boolean(null)); //false
 
 console.log(Boolean(0)); //flase
 
