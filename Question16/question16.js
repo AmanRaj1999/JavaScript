@@ -8,7 +8,7 @@ let userInput = prompt("Enter the month: ");
 
 if (
   (userInput == "September" && userInput == "October") ||
-  userInput == November
+  userInput == "November"
 ) {
   console.log("The season is Autum");
 } else if (
@@ -21,4 +21,9 @@ if (
   userInput == "May"
 ) {
   console.log("The season is Spring");
+} else if (
+  (userInput == "June" && userInput == "July") ||
+  userInput == "August"
+) {
+  console.log("The season is Summer");
 }
