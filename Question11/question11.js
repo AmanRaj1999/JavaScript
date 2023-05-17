@@ -30,10 +30,7 @@ console.log(now.getHours()); //11
 
 console.log(now.getMinutes()); //54
 
-//     - Find out the numbers of seconds elapsed from January 1, 1970 to now.
-// const old = Date(1970, 0, 1, 0, 0);
-// var diff = now.getTime() - old.getTime();
-// console.log(diff);
+// - Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
 var prevTime = new Date(1970, 0, 1, 0, 0); // Feb 1, 2011
 var thisTime = new Date(); // now
