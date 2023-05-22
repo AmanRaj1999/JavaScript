@@ -30,3 +30,5 @@ if (teaIndex !== -1) {
 }
 
 console.log(shoppingCart);
+
+//expected output : [ 'Meat', 'Milk', 'Coffee', 'Green Tea', 'Sugar' ]
