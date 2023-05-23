@@ -33,3 +33,16 @@ const sum = ages.reduce((total, age) => total + age, 0);
 const averageAge = sum / ages.length;
 
 console.log("Average age:", averageAge);
+
+//     - Find the range of the ages(max minus min)
+
+const ageRange = maxAge - minAge;
+
+console.log("Age range:", ageRange);
+
+//     - Compare the value of (min - average) and (max - average), use abs() method
+const minAverageDiff = Math.abs(minAge - averageAge);
+const maxAverageDiff = Math.abs(maxAge - averageAge);
+
+console.log("Absolute difference between min and average:", minAverageDiff);
+console.log("Absolute difference between max and average:", maxAverageDiff);
