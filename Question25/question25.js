@@ -18,7 +18,7 @@ function calculateBMI(weight, height) {
   }
 }
 
-// Example usage:
+// Example:
 var weight = 70; // weight in kilograms
 var height = 1.75; // height in meters
 
