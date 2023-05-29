@@ -25,6 +25,9 @@ function printTriangle(num) {
   }
 }
 
+// Example:
+printTrianglePattern(3);
+
 // Pattern B: Square
 function printSquare(num) {
   for (let i = 1; i <= num; i++) {
