@@ -3,4 +3,4 @@
 const countries = ["India", "USA", "Japan", "France", "China"];
 
 // module.exports = countries;
-exports default.countrie;
+export default countries;
