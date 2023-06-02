@@ -31,6 +31,7 @@ const number1 = parseFloat(prompt("Enter the first number:"));
 const number2 = parseFloat(prompt("Enter the second number:"));
 
 let result;
+
 // Perform the selected operation
 switch (operation) {
   case "1":
