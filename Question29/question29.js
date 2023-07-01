@@ -2,8 +2,8 @@
 function getFileExtension(filename) {
   // Split the filename into an array based on the dot (.)
   var parts = filename.split(".");
-  //   console.log(parts);
-  //   console.log(parts.length);
+  // console.log(parts);
+  // console.log(parts.length);
 
   // Check if there is at least one dot in the filename
   if (parts.length > 1) {
